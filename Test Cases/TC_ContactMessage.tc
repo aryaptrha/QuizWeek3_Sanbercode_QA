@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ContactMessage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02c9c448-0eaa-4123-a9ce-d0239ed855e4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8664f5ac-947c-4082-bda4-e3400a08abf8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>14bb62f7-a3fb-418d-a666-3303d8c42379</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9744f209-1201-49c2-8118-cbe4474b6492</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.email</defaultValue>
+      <description></description>
+      <id>8664f5ac-947c-4082-bda4-e3400a08abf8</id>
+      <masked>false</masked>
+      <name>ContactEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.name</defaultValue>
+      <description></description>
+      <id>14bb62f7-a3fb-418d-a666-3303d8c42379</id>
+      <masked>false</masked>
+      <name>ContactName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.message</defaultValue>
+      <description></description>
+      <id>9744f209-1201-49c2-8118-cbe4474b6492</id>
+      <masked>false</masked>
+      <name>Message</name>
+   </variable>
+</TestCaseEntity>
