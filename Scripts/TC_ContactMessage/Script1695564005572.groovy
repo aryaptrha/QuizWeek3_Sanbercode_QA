@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -20,29 +19,45 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
 
-
 WebUI.openBrowser(GlobalVariable.baseUrl)
 
-WebUI.waitForElementVisible(findTestObject('Homepage/btn_Contact'), 0)
+def sourceData = findTestData('/DataMessage')
 
-WebUI.click(findTestObject('Homepage/btn_Contact'))
+for (def rowNumber = 1; rowNumber <= sourceData.getRowNumbers(); rowNumber++) {
+    ContactEmail = sourceData.getValue(1, rowNumber)
 
-WebUI.waitForElementVisible(findTestObject('Homepage/Contact/text_NewMessage'), 0)
+    ContactName = sourceData.getValue(2, rowNumber)
 
-WebUI.verifyElementVisible(findTestObject('Homepage/Contact/text_NewMessage'))
+    Message = sourceData.getValue(3, rowNumber)
 
-WebUI.setText(findTestObject('Homepage/Contact/input_ContactEmail'), ContactEmail)
+    WebUI.waitForElementVisible(findTestObject('Homepage/btn_Contact'), 0)
 
-WebUI.setText(findTestObject('Homepage/Contact/input_ContactName'), ContactName)
+    WebUI.click(findTestObject('Homepage/btn_Contact'))
 
-WebUI.setText(findTestObject('Homepage/Contact/input_Message'), Message)
+    WebUI.waitForElementVisible(findTestObject('Homepage/Contact/text_NewMessage'), 0)
 
-WebUI.click(findTestObject('Homepage/Contact/btn_SendMessage'))
+    WebUI.verifyElementVisible(findTestObject('Homepage/Contact/text_NewMessage'))
 
-WebDriver driver = DriverFactory.getWebDriver()
+    WebUI.setText(findTestObject('Homepage/Contact/input_ContactEmail'), ContactEmail)
 
-'Getting the text from the alert and storing it in Variable'
-String AlertText = driver.switchTo().alert().getText()
+    WebUI.setText(findTestObject('Homepage/Contact/input_ContactName'), ContactName)
 
-'Verifying the Actual and Expected text from Alert'
-WebUI.verifyEqual(AlertText, 'Thanks for the message!!')
+    WebUI.setText(findTestObject('Homepage/Contact/input_Message'), Message)
+
+    WebUI.click(findTestObject('Homepage/Contact/btn_SendMessage'))
+
+    WebDriver driver = DriverFactory.getWebDriver()
+
+    'Getting the text from the alert and storing it in Variable'
+    String AlertText = driver.switchTo().alert().getText()
+
+    'Verifying the Actual and Expected text from Alert'
+    WebUI.verifyEqual(AlertText, 'Thanks for the message!!')
+
+    WebUI.dismissAlert()
+
+    WebUI.delay(2)
+}
+
+WebUI.closeBrowser()
+
