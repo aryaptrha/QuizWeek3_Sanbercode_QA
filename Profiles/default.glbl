@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'aryaputrahaidar@gmail.com'</initValue>
+      <initValue>'aryaputrahaidarakbar@gmail.com'</initValue>
       <name>email</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -23,5 +23,10 @@
       <description></description>
       <initValue>'Lorem Ipsum Dolor Sit Amet'</initValue>
       <name>message</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'iniPassword123'</initValue>
+      <name>signUpPassword</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

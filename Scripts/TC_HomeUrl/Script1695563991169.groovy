@@ -27,3 +27,5 @@ linkHome = WebUI.getUrl()
 
 WebUI.verifyMatch(linkHome, 'https://demoblaze.com/index.html', false)
 
+WebUI.closeBrowser()
+

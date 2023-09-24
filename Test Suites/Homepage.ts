@@ -12,20 +12,27 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>462ad56a-cb5d-4c20-ac72-1261f63047a0</testSuiteGuid>
    <testCaseLink>
-      <guid>33af04fc-3c69-4837-8b7e-85c79b76e346</guid>
+      <guid>a5289262-83f9-407f-b831-ead890c9f731</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_HomeUrl</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>49d37d94-78e9-40f3-977a-298d058e9100</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_CategoriesCheck</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2ad79877-5bf8-41cc-8c07-92973701aba9</guid>
+      <guid>abefde3c-ed60-4ab3-ab91-f0fcc07690f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/TC_ContactMessage</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ed185168-0700-4a64-b003-2a9658443c6d</id>
+         <id>6998070e-21ff-4148-81be-c831c485db21</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -34,29 +41,22 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <testDataLinkId>6998070e-21ff-4148-81be-c831c485db21</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>email</value>
          <variableId>8664f5ac-947c-4082-bda4-e3400a08abf8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <testDataLinkId>6998070e-21ff-4148-81be-c831c485db21</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>name</value>
          <variableId>14bb62f7-a3fb-418d-a666-3303d8c42379</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <testDataLinkId>6998070e-21ff-4148-81be-c831c485db21</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>message</value>
          <variableId>9744f209-1201-49c2-8118-cbe4474b6492</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1d4f9e63-19b5-4520-b58f-07a5d3808e04</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_HomeUrl</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

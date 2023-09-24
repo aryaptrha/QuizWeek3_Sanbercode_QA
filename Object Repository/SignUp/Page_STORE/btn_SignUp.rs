@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_LogIn</name>
+   <name>btn_SignUp</name>
    <tag></tag>
-   <elementGuidId>3a5e973e-4ccc-4629-953d-8c11faf79964</elementGuidId>
+   <elementGuidId>d8c867eb-0d52-4f0f-a93c-664c115efde2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@id='login2']</value>
+         <key>CSS</key>
+         <value>#signin2</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#login2</value>
+         <key>XPATH</key>
+         <value>//a[@id='signin2']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cd3d2811-cc46-4b51-bb6d-c642d6fbe72f</webElementGuid>
+      <webElementGuid>d68c5662-969d-429b-a461-74b6e50842d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>94547805-d539-4800-98c3-d1427ea660e3</webElementGuid>
+      <webElementGuid>dcc6f036-90be-44f0-8713-7d46b576fad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>02a4bd11-305d-46fe-b93a-af5ff9bd269e</webElementGuid>
+      <webElementGuid>f065d89c-cbbe-4bdd-ac99-61c6cf3eb740</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>login2</value>
-      <webElementGuid>617c8c71-e30e-4556-ac4f-0fe9e71431ee</webElementGuid>
+      <value>signin2</value>
+      <webElementGuid>1f9fffe7-1055-4964-b8a3-ba7ddab668ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,110 +54,110 @@
       <name>data-toggle</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>cc983a37-46a2-43c4-98d2-ed85751da081</webElementGuid>
+      <webElementGuid>8eb1eab0-6659-45bc-952e-8d1486fc358b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-target</name>
       <type>Main</type>
-      <value>#logInModal</value>
-      <webElementGuid>59e90af3-c830-473c-80a9-ff959e03f2df</webElementGuid>
+      <value>#signInModal</value>
+      <webElementGuid>740eab0e-3b26-4293-903b-cc6780f15c0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>68f6aaa6-9c69-445d-ba78-34c49da2cb5e</webElementGuid>
+      <value>Sign up</value>
+      <webElementGuid>953824b3-8bc9-420f-a162-62b6454e64b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login2&quot;)</value>
-      <webElementGuid>759c173f-a1f2-471a-8879-9102899944b3</webElementGuid>
+      <value>id(&quot;signin2&quot;)</value>
+      <webElementGuid>a4a47d6f-9ae2-4d0a-b9f8-17bb6f59b527</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='login2']</value>
-      <webElementGuid>8374ec87-c25f-4771-bfcd-6753b2cc7799</webElementGuid>
+      <value>//a[@id='signin2']</value>
+      <webElementGuid>c66a9f05-1b9d-49d7-967c-821fe0216d02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navbarExample']/ul/li[5]/a</value>
-      <webElementGuid>86c78b1e-8048-401e-b82d-e0e5df431262</webElementGuid>
+      <value>//div[@id='navbarExample']/ul/li[8]/a</value>
+      <webElementGuid>4be72dc8-f756-4115-bc9b-f4f2312bc634</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Log in')]</value>
-      <webElementGuid>75bd06b8-6f27-43f6-8528-8e01dd74bc50</webElementGuid>
+      <value>//a[contains(text(),'Sign up')]</value>
+      <webElementGuid>1e58658b-a3da-4dee-973b-fc8fb4085776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[1]</value>
-      <webElementGuid>1db873b2-2ebc-41c5-b5d0-64da47d17639</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart'])[1]/following::a[4]</value>
+      <webElementGuid>1a6b2f1a-8476-480f-9398-26f9fab3d27d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[4]</value>
-      <webElementGuid>9de58666-29ce-4e10-90bb-41bc145bf9a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(current)'])[1]/following::a[7]</value>
+      <webElementGuid>09d49086-11ab-4016-8562-9af744151cd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[4]</value>
-      <webElementGuid>c8acc157-6f71-48db-be51-6ae8f6f20d94</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Previous'])[1]/preceding::a[1]</value>
+      <webElementGuid>34a5b02c-5fbe-4785-80fa-de6fbdad2279</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[5]</value>
-      <webElementGuid>9ef693dd-a975-4422-a019-e0b5104cd50c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Next'])[1]/preceding::a[2]</value>
+      <webElementGuid>e835319e-35f5-407e-8042-b7464521afb9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>(//a[contains(@href, '#')])[3]</value>
-      <webElementGuid>6065a706-0abb-4109-93ed-075df382e519</webElementGuid>
+      <value>(//a[contains(@href, '#')])[6]</value>
+      <webElementGuid>af3b52c0-44f6-41d4-9bb6-eeabf7b87487</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[5]/a</value>
-      <webElementGuid>b526601e-cf62-4c6c-beba-4e9ea150e3cd</webElementGuid>
+      <value>//li[8]/a</value>
+      <webElementGuid>c024785d-6527-424a-890d-44fadced0fbf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '#' and @id = 'login2' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>ff610a9f-b68c-48c8-9df7-521180cf3909</webElementGuid>
+      <value>//a[@href = '#' and @id = 'signin2' and (text() = 'Sign up' or . = 'Sign up')]</value>
+      <webElementGuid>d8014e36-7155-469f-a0f4-15ce1557068a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

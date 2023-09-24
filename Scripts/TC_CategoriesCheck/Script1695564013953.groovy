@@ -41,5 +41,7 @@ WebUI.click(findTestObject('Homepage/ProductCategories/btn_Monitors'))
 
 WebUI.verifyElementVisible(findTestObject('Homepage/ProductCategories/btn_AppleMonitor24'))
 
-WebUI.verifyElementVisible(findTestObject('Homepage/ProductCategories/btn_2017Dell15.6Inch'))
+WebUI.verifyElementVisible(findTestObject('Homepage/ProductCategories/btn_ASUSFullHD'))
+
+WebUI.closeBrowser()
 
