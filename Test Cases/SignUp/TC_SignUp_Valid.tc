@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SignUp_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddb4cf11-d8b2-479c-aa53-cd5fd8d60101</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08db0936-4984-4378-a555-313e1225d673</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.signUpPassword</defaultValue>
+      <description></description>
+      <id>08db0936-4984-4378-a555-313e1225d673</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

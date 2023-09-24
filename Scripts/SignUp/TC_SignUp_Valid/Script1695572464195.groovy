@@ -18,46 +18,43 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
+import java.util.Random as Random
 
 WebUI.openBrowser(GlobalVariable.baseUrl)
 
-def sourceData = findTestData('/DataMessage')
+WebUI.waitForElementVisible(findTestObject('SignUp/Page_STORE/btn_SignUp'), 0)
 
-for (def rowNumber = 1; rowNumber <= sourceData.getRowNumbers(); rowNumber++) {
-    ContactEmail = sourceData.getValue(1, rowNumber)
+WebUI.click(findTestObject('SignUp/Page_STORE/btn_SignUp'))
 
-    ContactName = sourceData.getValue(2, rowNumber)
+WebUI.delay(1)
 
-    Message = sourceData.getValue(3, rowNumber)
+def characters = ('a'..'z') + ('0'..'9')
 
-    WebUI.waitForElementVisible(findTestObject('Homepage/btn_Contact'), 0)
+def randomPartLength = 10
 
-    WebUI.click(findTestObject('Homepage/btn_Contact'))
+def random = new Random()
 
-    WebUI.waitForElementVisible(findTestObject('Homepage/Contact/text_NewMessage'), 0)
+def randomPart = (1..randomPartLength).collect({ 
+        characters[random.nextInt(characters.size())]
+    }).join()
 
-    WebUI.verifyElementVisible(findTestObject('Homepage/Contact/text_NewMessage'))
+def randomUsername = randomPart + ' SANBERCODE'
 
-    WebUI.setText(findTestObject('Homepage/Contact/input_ContactEmail'), ContactEmail)
+WebUI.setText(findTestObject('SignUp/Page_STORE/input_Username'), randomUsername)
 
-    WebUI.setText(findTestObject('Homepage/Contact/input_ContactName'), ContactName)
+WebUI.setText(findTestObject('SignUp/Page_STORE/input_Password'), password)
 
-    WebUI.setText(findTestObject('Homepage/Contact/input_Message'), Message)
+WebUI.click(findTestObject('SignUp/Page_STORE/btn_SignUpDone'))
 
-    WebUI.click(findTestObject('Homepage/Contact/btn_SendMessage'))
+WebUI.waitForAlert(2)
 
-    WebUI.waitForAlert(1)
+WebDriver driver = DriverFactory.getWebDriver()
 
-    WebDriver driver = DriverFactory.getWebDriver()
+'Getting the text from the alert and storing it in Variable'
+String AlertText = driver.switchTo().alert().getText()
 
-    'Getting the text from the alert and storing it in Variable'
-    String AlertText = driver.switchTo().alert().getText()
-
-    'Verifying the Actual and Expected text from Alert'
-    WebUI.verifyEqual(AlertText, 'Thanks for the message!!')
-
-    WebUI.delay(1)
-}
+'Verifying the Actual and Expected text from Alert'
+WebUI.verifyEqual(AlertText, 'Sign up successful.')
 
 WebUI.closeBrowser()
 

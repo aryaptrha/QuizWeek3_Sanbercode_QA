@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_SignUp_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea79ba75-41ff-4247-a6e5-2900d9821456</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62d189c0-5142-4d65-a410-f791907206d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.signUpPassword</defaultValue>
+      <description></description>
+      <id>62d189c0-5142-4d65-a410-f791907206d5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
