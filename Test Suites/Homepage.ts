@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Homepage</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>462ad56a-cb5d-4c20-ac72-1261f63047a0</testSuiteGuid>
+   <testCaseLink>
+      <guid>33af04fc-3c69-4837-8b7e-85c79b76e346</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_CategoriesCheck</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ad79877-5bf8-41cc-8c07-92973701aba9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_ContactMessage</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ed185168-0700-4a64-b003-2a9658443c6d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DataMessage</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>8664f5ac-947c-4082-bda4-e3400a08abf8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>14bb62f7-a3fb-418d-a666-3303d8c42379</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ed185168-0700-4a64-b003-2a9658443c6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>message</value>
+         <variableId>9744f209-1201-49c2-8118-cbe4474b6492</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d4f9e63-19b5-4520-b58f-07a5d3808e04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_HomeUrl</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>
